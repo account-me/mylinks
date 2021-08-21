@@ -18,7 +18,7 @@ $(function(){
 
           }).fail(function( data ) {
 
-            alert( "فشل الطلب: " + data );
+            onsole.log('Error : 'data);
           });
 
 
