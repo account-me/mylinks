@@ -17,7 +17,6 @@ $( document ).ready(function() {
 
           }).fail(function( data ) {
             console.log(data);
-            $(location).attr('href', data)
           });
 
 
