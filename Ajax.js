@@ -16,9 +16,9 @@ $(function(){
             console.log('Done1 <br>');
             console.log(msg);
 
-          }).fail(function( jqXHR, textStatus ) {
+          }).fail(function( jqXHR, textStatus, errorThrown ) {
 
-            alert( "فشل الطلب: " + textStatus );
+            alert( "فشل الطلب: " + errorThrown );
           });
 
 
