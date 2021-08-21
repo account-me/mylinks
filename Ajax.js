@@ -18,7 +18,6 @@ $( document ).ready(function() {
           }).fail(function( jqXHR, textStatus ) {
             
             console.log(textStatus);
-            
           });
 
 
