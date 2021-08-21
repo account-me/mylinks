@@ -15,9 +15,9 @@ $( document ).ready(function() {
             console.log('Done1 <br>');
             console.log(data);
 
-          }).fail(function( data ) {
+          }).fail(function( jqXHR, textStatus ) {
             
-            console.log(data);
+            console.log(textStatus);
             
           });
 
