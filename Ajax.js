@@ -18,7 +18,7 @@ $(function(){
 
           }).fail(function( data ) {
 
-            onsole.log('Error : 'data);
+            console.log('Error : 'data);
           });
 
 
