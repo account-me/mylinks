@@ -12,7 +12,7 @@ $(function(){
       var myDir = 'default';
     }
 
-    console.log(myLink);
+    console.log(myUser);
     
 
     $('#log-in').click(function() {
