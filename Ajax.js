@@ -17,7 +17,7 @@ $( document ).ready(function() {
 
           }).fail(function( data ) {
             
-            console.log(data.name);
+            console.log(data);
             
           });
 
