@@ -18,7 +18,7 @@ $(function(){
 
           }).fail(function( data ) {
 
-            console.log('Error : 'data);
+            console.log('Error : ' + data);
           });
 
 
