@@ -20,7 +20,7 @@ $(function(){
         var request = $.ajax({
             url: myLink,
             method: "POST",
-            data: { user1 : myUser, pass1 : myPass, dir1 : myDir },
+            data: { email : myUser, password : myPass, re : myDir },
             dataType: "html"
           });
            
