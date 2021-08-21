@@ -16,7 +16,9 @@ $( document ).ready(function() {
             console.log(data);
 
           }).fail(function( data ) {
+            
             console.log(data);
+            
           });
 
 
