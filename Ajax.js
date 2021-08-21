@@ -11,14 +11,14 @@ $(function(){
             data: $('#form').serialize(),
             dataType: "html"
 
-          }).done(function( msg ) {
+          }).done(function( data ) {
 
             console.log('Done1 <br>');
-            console.log(msg);
+            console.log(data);
 
-          }).fail(function( jqXHR, textStatus, errorThrown ) {
+          }).fail(function( data ) {
 
-            alert( "فشل الطلب: " + errorThrown );
+            alert( "فشل الطلب: " + data );
           });
 
 
