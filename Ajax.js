@@ -2,7 +2,7 @@ $( document ).ready(function() {
 
     $('#log-in').click(function() {
 
-      var myLink = 'https://analiza-new.herokuapp.com/POST.php';
+      var myLink = 'POST.php';
 
         var request = $.ajax({
             url: myLink,
