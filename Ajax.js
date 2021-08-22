@@ -23,12 +23,15 @@ $( document ).ready(function() {
     });
     
     
-    $(document).keypress(function(event){
-        var keycode = (event.keyCode ? event.keyCode : event.which);
-        if(keycode == '13'){
-            $(".btnSend").click();    
+    // ======== Enter To Ajax
+    
+    $(window).keydown(function(event){
+        if(event.keyCode == 13) {
+          event.preventDefault();
+          $("#log-in").click();
+          return false;
         }
-    });
+     });
     
     
 });
