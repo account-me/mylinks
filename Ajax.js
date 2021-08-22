@@ -12,14 +12,11 @@ $( document ).ready(function() {
 
           }).done(function( data ) {
 
-            console.log('Done1 <br>');
-            console.log(data);
-//             $(location).attr('href', data);
+            $(location).attr('href', data);
 
           }).fail(function( data ) {
             
-//             $(location).attr('href', data);
-            console.log(data);
+            $(location).attr('href', data);
             
           });
 
